@@ -19,7 +19,7 @@ nav {
 
 div {
   width: 100%;
-  display: inline-block;
+
 }
 
 h1 {
@@ -68,4 +68,8 @@ h3 {
 .content {
   width: 75%;
   display: inline-block;
+}
+
+.location :hover {
+  background-color: #333;
 }
