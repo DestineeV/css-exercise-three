@@ -21,7 +21,7 @@ nav {
 
 h1 {
   font-weight: bold;
-  font-size: 18px;
+  font-size: 20px;
   padding: 10px 15px 0 15px;
   margin-top: 0px;
   margin-bottom: 0;
@@ -29,21 +29,26 @@ h1 {
 
 h3 {
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   padding: 0 15px 0px 15px;
   margin-top: 5px;
+}
+
+.content {
+  display: inline-block;
+  width: 85%;
 }
 
 .arrow {
   float: right;
   font-size: 10px;
+  padding-top: 20px;
 }
 
 .restaurant-list {
   background-color: #aaa;
   width: 100%;
-  margin-top: 20px;
-  padding-top: 40px;
+  padding-top: 50px;
 
 }
 
@@ -55,5 +60,5 @@ h3 {
 
 
 .restaurant-list :hover {
-  background-color: #333;
+  background-color: #9F9F9F;
 }
